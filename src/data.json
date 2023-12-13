@@ -1,0 +1,514 @@
+[
+  {
+    "title": "Specials",
+    "items": [
+      {
+        "id": 5,
+        "title": "New York Strip Steak",
+        "author": "",
+        "price": 34.99,
+        "img": "menu_imgs/stripsteak.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 6,
+        "title": "Brisket & Chicken Kebabs",
+        "author": "",
+        "price": 21.16,
+        "img": "menu_imgs/kebabs.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 7,
+        "title": "Apple Cheesecake Tacos",
+        "author": "",
+        "price": 16.95,
+        "img": "menu_imgs/applecheesetaco4.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Pina Colada",
+        "author": "",
+        "price": 14.45,
+        "img": "menu_imgs/pinacolada2.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      }
+    ]
+  },
+  {
+    "title": "Appetizers",
+    "items": [
+      {
+        "id": 5,
+        "title": "Cheese French Fries",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/cheese.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 6,
+        "title": "Jalapeno Poppers",
+        "author": "",
+        "price": 4.99,
+        "img": "menu_imgs/poppers.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 7,
+        "title": "Cheese Nachos",
+        "author": "",
+        "price": 5.99,
+        "img": "menu_imgs/nachos.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Boneless Wings",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/wings.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      }
+    ]
+  },
+  {
+    "title": "Burgers",
+    "items": [
+      {
+        "id": 5,
+        "title": "Grilled Vegetable Burger",
+        "author": "",
+        "price": 6.99,
+        "img": "menu_imgs/veggie.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 6,
+        "title": "Double Cheeseburger",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/doublecheese.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 7,
+        "title": "Spicy Black Bean Burger",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/blackbean.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "BBQ Burger",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/bbq.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Classic Hamburger",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/classic.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Turkey Burger",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/turkeyburger.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      }
+
+    ]
+  },
+  {
+    "title": "Pizza",
+    "items": [
+      {
+        "id": 5,
+        "title": "Garden Veggie Pizza",
+        "author": "",
+        "price": 0,
+        "img": "menu_imgs/gardenveggie4.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 6,
+        "title": "Hawaiian Pizza",
+        "author": "",
+        "price": 135,
+        "img": "menu_imgs/hawaiian.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 7,
+        "title": "Chicken Fresco Pizza",
+        "author": "",
+        "price": 693,
+        "img": "menu_imgs/chickenfresco.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Double Cheese Pizza",
+        "author": "",
+        "price": 289,
+        "img": "menu_imgs/cheesepizza.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Spinach & Feta Alfredo Pizza",
+        "author": "",
+        "price": 289,
+        "img": "menu_imgs/spinachFeta.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Buffalo Chicken Pizza",
+        "author": "",
+        "price": 289,
+        "img": "menu_imgs/buffalochickenpizza.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      }
+    ]
+  },
+  {
+    "title": "Tex-Mex",
+    "items": [
+      {
+        "id": 5,
+        "title": "Crispy Avocado Taco",
+        "author": "",
+        "price": 6.99,
+        "img": "menu_imgs/avocadotaco.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 6,
+        "title": "Brisket Taco",
+        "author": "",
+        "price": 5.32,
+        "img": "menu_imgs/briskettaco.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 7,
+        "title": "Tex-Mex Fajitas",
+        "author": "",
+        "price": 6.23,
+        "img": "menu_imgs/fajita.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Smoked Brisket",
+        "author": "",
+        "price": 10.99,
+        "img": "menu_imgs/smokedbrisket.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Lemon-Pepper Chicken Wings",
+        "author": "",
+        "price": 7.99,
+        "img": "menu_imgs/lemonpepperwings.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Texas Grilled Burrito",
+        "author": "",
+        "price": 6.59,
+        "img": "menu_imgs/burrito.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Queso Beef Enchiladas",
+        "author": "",
+        "price": 7.99,
+        "img": "menu_imgs/enchilada.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      }
+    ]
+  },
+  {
+    "title": "Deserts",
+    "items": [
+      {
+        "id": 5,
+        "title": "Strawberry Cheescake",
+        "author": "",
+        "price": 11.99,
+        "img": "menu_imgs/strawberrycheese.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 6,
+        "title": "Oreo Cheescake",
+        "author": "",
+        "price": 11.99,
+        "img": "menu_imgs/oreocheese.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 7,
+        "title": "Oatmeal Raisin Cookies",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/raisincookies.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Brookies",
+        "author": "",
+        "price": 6.49,
+        "img": "menu_imgs/brookies.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Ice Cream",
+        "author": "",
+        "price": 7.99,
+        "img": "menu_imgs/icecream.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      }
+    ]
+  },
+  {
+    "title": "Drinks",
+    "items": [
+      {
+        "id": 5,
+        "title": "Lemonade",
+        "author": "",
+        "price": 4.99,
+        "img": "menu_imgs/lemonade.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 6,
+        "title": "Mango & Peach Smoothie",
+        "author": "",
+        "price": 6.99,
+        "img": "menu_imgs/smoothie.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 7,
+        "title": "Iced Tea",
+        "author": "",
+        "price": 5.99,
+        "img": "menu_imgs/icedtea.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Pepsi",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/pepsi.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Dr Pepper",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/drpepper2.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Mountain Dew",
+        "author": "",
+        "price": 5.49,
+        "img": "menu_imgs/mountaindew2.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Strawberry Margarita",
+        "author": "",
+        "price": 8.49,
+        "img": "menu_imgs/margarita.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Passion Fruit Mojito",
+        "author": "",
+        "price": 8.99,
+        "img": "menu_imgs/mojito.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Tito's Lavendar Lemonade",
+        "author": "",
+        "price": 289,
+        "img": "menu_imgs/lavender.png",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      }
+    ]
+  },
+  {
+    "title": "Sides",
+    "items": [
+      {
+        "id": 5,
+        "title": "Salsa",
+        "author": "",
+        "price": 149,
+        "img": "menu_imgs/salsa3.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 6,
+        "title": "Guacamole",
+        "author": "",
+        "price": 135,
+        "img": "menu_imgs/guac.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 7,
+        "title": "Chipotle Sauce",
+        "author": "",
+        "price": 693,
+        "img": "menu_imgs/chipotle.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Cheese Sauce",
+        "author": "",
+        "price": 289,
+        "img": "menu_imgs/cheesesauce.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Red Sauce",
+        "author": "",
+        "price": 289,
+        "img": "menu_imgs/redsauce.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      },
+      {
+        "id": 8,
+        "title": "Spicy Ranch",
+        "author": "",
+        "price": 289,
+        "img": "menu_imgs/ranch.jpg",
+        "amount": 1,
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+
+      }
+    ]
+  }
+
+]

@@ -1,0 +1,142 @@
+
+
+.reserve_con {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+    
+}
+
+.reservations {
+    display:grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    height: 35rem;
+    box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.2);
+}
+
+
+
+.timings_con {
+    align-items: center;
+    background-color: rgba(9, 9, 9, 0.936);
+}
+
+.timings {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.timings h2 {
+    padding-bottom: 15px;
+    font-size: 35px;
+    color: white;
+}
+
+.timings h3 {
+    padding-top: 20px;
+    color:#fec03c;
+}
+
+.timings p {
+    padding-top: 10px;
+    color:#f8fadb;
+}
+
+.call {
+    margin-top: 3rem;
+}
+
+.call h4{
+    margin-top: 2rem;
+    font-size: 20px;
+    color: white;
+}
+
+.bookings {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bookings_form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+}
+
+.bookings_form h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+
+.bookings_field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_con1 {
+    display: flex;
+    justify-content: center;
+}
+
+.button_r {
+    margin-top: 4rem;
+    width: 23rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #fec03c;
+    color: black;
+    background: #f8fadb;
+    transition: all 0.3s ease-in-out;
+}
+
+.button_r:hover {
+    transform: scale(1.05);
+}
+
+.submitted {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.confirmation {
+    text-align: center;
+    justify-content: center;
+}
+
+.reserve_details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    justify-content: center;
+    justify-self: center;
+}
+
+.reserve_button {
+    margin-top: 3rem;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: 2px solid #fec03c;
+    color: black;
+    background: #f8fadb;
+    cursor: pointer;
+    box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.reserve_button:hover {
+    transform: scale(1.05);
+}
+

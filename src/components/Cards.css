@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Marcellus&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Questrial&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    margin: 10px;
+    border: 1px solid #f8fadb;
+    position: relative;
+}
+
+.menu_img {
+   width: 100%; 
+}
+
+.details {
+    height: 8rem;
+}
+
+.details button {
+    background: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 11.5rem;
+}
+.cart_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+/*modal*/
+
+
+
+
+.menu_img_modal {
+    width: 17.5rem;
+}
+
+
+.top_sec{
+    display: grid;
+    grid-template-columns: 17.5rem auto;
+}
+
+.title_con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_con h3{
+    padding-top: 5px;
+}
+
+.title_con button{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color:#C83635;
+    padding-right: 25px;
+    top: -7px;
+    cursor: pointer;
+}
+
+
+
+.desc_con {
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc_con p {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+
+
+.requests_input {
+    height: 5rem;
+    width: 30rem;
+    padding: 5px;
+    padding-top: -10px;
+}
+
+.specifics {
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 2rem;
+}
+
+
+.bottom_sec {
+    background-color: #f8fadb;
+    bottom: 0;
+    margin-top: 3.5rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+
+.bottom_sec button{
+    padding: 10px 40px 10px 40px;
+    background-color: #ffc33c;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.bottom_sec button:hover{
+    transform: scale(1.05);
+}
+
+.toppings{
+    margin-left: 2rem;
+}
+
+.toppings_con2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.topping-circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #ffc33c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topping-circle2 {
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.select_top{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #e0403f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -4.2rem;
+    left: 2.8rem;
+    color: white;
+    font-size: 12px;
+}
+
+.topping-circle2 p{
+    font-size: 12px;
+    top: -1rem;
+}
+
+.topping_img {
+    height: 2.5rem;
+}
+
+.topping_img2{
+    height: 4rem;
+    margin-left: 0.1rem;
+    margin-top: 0.2rem;
+}
+
+.topping_img3{
+    height: 3.5rem;
+    margin-left: 0.3rem;
+}
+
+.topping_img4 {
+    height: 3rem;
+    margin-left: 0.2rem;
+}
+
+.topping2_con{
+    text-align: center;
+}
+
+.customize_title {
+    margin-bottom: 1.5rem;
+}
+.size_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.size-circle-small {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: #ffc33c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+}
+
+.size-circle-medium {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #ffc33c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+}
+
+.size-circle-large {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: #ffc33c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: none;
+}
+
+.size-circle-small.selected,
+.size-circle-medium.selected,
+.size-circle-large.selected {
+  box-shadow:0px 0px 15px #ffc33c;
+}
+
+.quantity_con input {
+    margin-left: 1rem;
+    width: 5rem;
+    background-color: #f8fadb;
+    border: 1px solid black;
+}

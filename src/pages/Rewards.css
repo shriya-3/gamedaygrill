@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.join_container {
+    display: flex;
+    justify-content: center;
+    background-color: #f8fadb;
+}
+
+.join_sec {
+    margin-top: 3rem;
+    height: 25rem;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 35rem auto;
+}
+
+.join_sec p{
+    margin-top: 0.5rem;
+}
+
+.left_join h2 {
+    padding-top: 2px;
+    font-size: 40px;
+}
+
+.join_title {
+    color:#e0403f;
+    margin-top: 1rem;
+
+
+}
+
+.left_join {
+    align-content: center;
+}
+
+.right_join {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+}
+.phone{
+    max-height: 21rem;
+    transform: rotate(7deg);
+}
+
+
+
+
+.join_sec button{
+    margin-top: 1.5rem;
+    width: 15rem;
+    height: 3rem;
+    border: 2px solid #fec03c;
+    color: black;
+    background: #f8fadb;
+    outline: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.join_sec button:hover{
+    transform: scale(1.1);
+}
+
+.circle_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fadb;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .circles {
+    column-gap: 8rem;
+    text-align: center;
+    justify-content: space-around;
+    width: 70rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative; /* Add this line to enable z-index */
+    z-index: 1; /* Set a z-index for the circles container */
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #e0403f;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2; /* Set a higher z-index for the circles */
+    color: white;
+  }
+  
+  .line1 {
+    height: 23px;
+    width: 100%;
+    background-image: linear-gradient(to right, #e0403f, #ffc33c);
+    background-color: #333;
+    position: absolute;
+    z-index: 0;
+  }
+
+.rewards_container{
+    display: flex;
+    justify-content: center;
+    background-color: #f8fadb;
+}
+
+.rewards_grid {
+    column-gap: 8rem;
+    text-align: center;
+    justify-content: center;
+    width: 70rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    top: -2.4rem;
+}
+
+.rewards_card{
+    border: 2px solid rgba(203, 44, 44, 0.2);
+    border-top: none;
+    z-index:1;
+}
+
+.rewards_card.no-top-shadow {
+    box-shadow: 0 4px -8px rgba(0,0,0,0.2);
+}
+
+
+.rewards_card img{
+    margin-top: 3.5rem;
+    width: 14rem;
+}
+
+.rewards_card p{
+    margin-top: 1rem;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 2rem;
+}
+
+.benefits_sec {
+    background-color: #f8fadb;
+    z-index: -1;
+}
+
+.benefits_sec p{
+    color:#f8fadb;
+}
+
+.benefits_con {
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner_header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.banner{
+    display: flex;
+    background-color: #e0403f;
+    color: white;
+    text-align: center;
+    height: 2.5rem;
+    width: 360px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(100% 0%, 341px 50%, 100% 100%, 0% 100%, 19px 50%, 0% 0%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: black;
+}
+
+.banner h4{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+
+.benefits {
+    top: -1.3rem;
+    width: 40rem;
+    box-shadow: 0 0 0.2rem 0 rgba(0,0,0,.3);
+    border-radius: 20px;
+    border: 1px solid rgba(85,85,85,.2);
+    list-style-type: none;
+    z-index: -1;
+    height: 20rem;
+    background-color: #febf3c;
+}
+
+.space {
+    margin-top: 1rem;
+}
+
+.benefits li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 8rem;
+    padding: 10px 10px 10px 0px;
+}
+
+.benefits li h3 {
+    margin-left: 1.5rem;
+}
+
+.event_icon {
+    height: 45px;
+}
+
+.howTo {
+    background-color: #f8fadb;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+.howTo h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.steps_container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.step_no{
+    color: #e0403f;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.howTo_steps {
+    column-gap: 70px;
+    text-align: center;
+    justify-content: center;
+    width: 80rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+
+
+.step h2{
+    font-size: 60px;
+    margin-bottom: 5px;
+}

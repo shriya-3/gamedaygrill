@@ -1,0 +1,374 @@
+.checkout_page {
+    background-color: #f8fadb;
+}
+
+.topp {
+    background-color: #f8fadb;
+}
+
+
+.order_type, .payment_type, .discount_con {
+    background-color: #ffc33c;
+}
+
+.payment input {
+    background-color: transparent;
+}
+
+
+.options {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-content: space-around;
+    height: 2.5rem;
+}
+
+.options1 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    width: 100%;
+    justify-content: space-around;
+    height: 3rem;
+    column-gap: 0.5rem;
+}
+
+
+
+.delivery_btn.active1, .pickup_btn.active1 {
+    background-color: #f8fadb;
+    border: 4px;
+}
+
+.pickup_btn1.active4, .delivery_btn1.active3 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #f8fadb;
+    cursor: pointer;
+}
+
+
+
+.delivery_con, .pickup_con {
+    margin-bottom: 2rem;
+}
+
+.delivery_btn, .pickup_btn, .delivery_btn1, .pickup_btn1 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #ffc33c;
+    cursor: pointer;
+}
+
+.logo2 {
+    height: 2rem;
+}
+
+.credit {
+    height: 1.5rem;
+}
+
+
+
+.pickup_radio, .delivery_radio, .giftCard_radio, .creditCard_radio {
+    margin-right: 0.5rem;
+}
+
+
+
+.delivery_btn_con1, .pickup_btn_con1 {
+    border-radius: 20px;
+    height: 3rem;
+
+}
+
+
+
+.delivery_btn_con1 button, .pickup_btn_con1 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.logo2, .credit {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+
+input[type='radio'] {
+    accent-color: #e0403f;
+}
+
+
+.delivery_grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.delivery_one, .delivery_two {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+/*.address_con{
+    border: 1px solid black;
+} */
+.address_con input{
+    width: 100%;
+}
+
+.address_con input, .delivery_one input, .delivery_two input {
+    margin-top: 0.5rem;
+    height: 30px;
+    border: 1.5px solid #e0403f;
+}
+
+
+
+.pickup_time {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.pickup_time select{
+    width: 12rem;
+}
+
+.pickup_text{
+    align-self: center;
+}
+
+.pickup_grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.pickup_name, .pickup_contact {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.pickup_name input, .pickup_contact input{
+    margin-top: 0.5rem;
+    height: 30px;
+}
+
+
+.checkout_container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout_grid {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+    column-gap: 8rem;
+}
+
+.payment{
+    height: 90%;
+    margin-bottom: 1.5rem;
+}
+
+
+.order_summary{
+    height: 100%;
+    border: 1px solid black;
+}
+
+.order_summary {
+    top: 0;
+    height: 100vh;
+    background: #f8fadb;
+    min-width: 30rem;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.payment{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 1rem;
+}
+
+.order_type, .payment_type, .discount_con {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.table, td{
+    padding-top: 15px;
+}
+
+.remove_item {
+    border: none;
+    background-color: transparent;
+    width: 1.5rem;
+    font-size: 14px;
+    cursor: pointer;
+    color:#e0403f;
+}
+
+.credit_tab {
+    margin-top: 2rem;
+    height: 10rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.payment_type {
+    height: 20rem;
+}
+
+.giftcard_num {
+    margin-top: 2.5rem;
+}
+
+.credit_no {
+    display: flex;
+}
+
+.credit_no input{
+    display: flex;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 0.5rem;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.giftcard_num input{
+    display: flex;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 0.5rem;
+    align-content: center;
+    justify-content: center;
+    width: 20rem;
+}
+
+.balance_con {
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    color: black;
+}
+
+.balance_con strong{
+    color:#e0403f;
+}
+
+.credit_img1 {
+    height: 1.2rem;
+}
+
+.month input, .cvv input, .first_name input, .last_name input, .zip_code input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.month_cvv {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
+
+
+.name_con {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.discount_num input{
+    display: flex;
+    border: none;
+    border-bottom: 1px solid black;
+    align-content: center;
+    justify-content: center;
+    width: 20rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.order_sum {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.table{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.table table{
+    width: 95%;
+    text-align: center;
+}
+
+.total_con {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.totals {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.total1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.place_order {
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.order_btn {
+    width: 80%;
+    height: 2.5rem;
+    background-color: #e0403f;
+    border: none;
+    color:#f8fadb;
+    font-size: 15px;
+}
+
+
+

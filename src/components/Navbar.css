@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Marcellus&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Questrial&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: -webkit-sticky;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /*font-family: 'Marcellus', serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Questrial', sans-serif;*/
+}
+
+.navbar_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 14vh;
+  /*background: linear-gradient(90deg, #f94626, #f02328);*/
+  background: #e0403f;
+  z-index: 999;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.navbar {
+  width: 80%;
+  /*border: 1px solid #fff;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0rem;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  margin-right: 40rem;
+}
+
+/*header nav .ul_user {
+  display: flex;
+  align-items: center;
+}*/
+
+.item {
+  list-style-type: none;
+  text-decoration: none;
+  color: #f8fadb;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+  color: #ffe91e;
+}
+
+/*header nav .user {
+  display: flex;
+  align-items: center;
+}
+
+header nav .user li {
+  list-style-type: none;
+  margin-left: 20px;
+}*/
+
+.cart_container {
+  display: flex;
+}
+
+.cart {
+  position: relative;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 4px;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
+
+.cart:hover {
+  color: #ffe91e;
+  transform: scale(1.1);
+  backface-visibility: hidden;
+}
+
+.cart_count {
+  font-size: 10px;
+  width: 13px;
+  height: 13px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
