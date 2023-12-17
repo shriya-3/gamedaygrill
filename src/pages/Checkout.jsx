@@ -25,7 +25,6 @@ const Modal = ({ closeModal }) => {
 const Checkout = () => {
 
   
-  
   const [deliveryOption, setDeliveryOption] = useState("delivery");
   const [pickupName, setPickupName] = useState("");
   const [pickupName2, setPickupName2] = useState("");
@@ -76,12 +75,16 @@ const Checkout = () => {
 
   const { updateQuantity } = useQuantity();
 
+  
+
   let items = localStorage.getItem("cart");
-  items = JSON.parse(items);
+  items = JSON.parse(items) || [];
   let sum = 0;
   for (var i = 0; i < items.length; i++) {
     sum += items[i].price * items[i].quantity;
   }
+
+
 
   const removeItem = (title) => {
     const updatedItems = items.filter((item) => item.title !== title);
