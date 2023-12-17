@@ -1,11 +1,15 @@
 .footer_container {
-    height: 20rem;
+    height: 15rem;
     background-color: black;
     z-index: -1;
 }
 
+.bpa {
+    width: 15rem;
+}
+
 .footer_grid {
-    padding: 4rem 4rem;
+    padding: 2.5rem 5rem;
     display: flex;
     flex-direction: column;
 }

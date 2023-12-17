@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -10,6 +10,7 @@ import Reservations from "./pages/Reservations";
 import Rewards from "./pages/Rewards";
 import Checkout from "./pages/Checkout";
 import Cards from "./components/Cards";
+import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import { QuantityProvider } from "./components/contexts/Quantity";
 
@@ -20,11 +21,12 @@ function App() {
 
   return (
     <div className="body">
-      <BrowserRouter basename="/gamedaygrill">
+      <HashRouter basename="/gamedaygrill">
         <QuantityProvider>
           <Navbar />
           <Routes>
             <Route path="/home" element={<Home />} />
+            <Route path="/aboutUs" element={<AboutUs />} />
             <Route path="/menu" element={<Menu />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/reservations" element={<Reservations />} />
@@ -33,7 +35,7 @@ function App() {
           </Routes>
           <Footer />
         </QuantityProvider>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

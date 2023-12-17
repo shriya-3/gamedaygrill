@@ -49,7 +49,11 @@ export default function () {
               </li>
               <li className="email">
                 <FontAwesomeIcon icon={ faClock } className="icon1"></FontAwesomeIcon>
-                <p className="email_text">Everyday 8:00am to 1:30am</p>
+                <p className="email_text">Weekdays 10:00am to 1:00am</p>
+              </li>
+              <li className="email">
+                <FontAwesomeIcon icon={ faClock } className="icon2"></FontAwesomeIcon>
+                <p className="email_text">Weekends 11:00am to 1:00am</p>
               </li>
             </div>
             <div className="line_container">
@@ -73,8 +77,9 @@ export default function () {
           </div>
           <div className="form">
             {submitted ? (
-              <div>
-                <p>Thank you for contacting us! We will reach out soon with further information.</p>
+              <div className="contact_after">
+                <p>Thank you for contacting us! <br></br>We will reach out soon with further information.</p>
+                
                 <button onClick={handleReset}>Submit Another Response</button>
               </div>
             ) : (
@@ -108,10 +113,10 @@ export default function () {
                   <br></br>
                   <select
                     id="subject"
+                    required
                     value={subject}
                     className="input"
                     onChange={(e) => setSubject(e.target.value)}
-                    required
                   >
                     <option value="">Select...</option>
                     <option value="apple">Restaurant Order Issue</option>
@@ -130,10 +135,11 @@ export default function () {
                   <input
                     type="text"
                     id="details"
+                    required
                     className="input"
                     value={details}
                     onChange={(e) => setDetails(e.target.value)}
-                    required
+                    
                   />
                 </div>
                 

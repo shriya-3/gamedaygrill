@@ -133,6 +133,7 @@
 }
 
 .toppings{
+
     margin-left: 2rem;
 }
 
@@ -251,6 +252,15 @@
 .size-circle-medium.selected,
 .size-circle-large.selected {
   box-shadow:0px 0px 15px #ffc33c;
+}
+
+
+.quantity_con {
+    margin-top: 2rem;
+}
+
+.sizes {
+    margin-top: 2rem;
 }
 
 .quantity_con input {

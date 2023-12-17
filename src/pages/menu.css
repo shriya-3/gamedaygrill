@@ -40,6 +40,7 @@
     display: table;
     width: 300px;
     padding: 13px;
+    cursor: pointer;
 }
 
 .side_item_beta {
@@ -50,6 +51,7 @@
     width: 300px;
     padding: 13px;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .menub_page {

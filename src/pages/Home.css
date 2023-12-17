@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative;
+    
     width: 100%;
     height: 86vh;
     /*background: linear-gradient(90deg, #f94626, #f02328);*/
@@ -95,6 +95,7 @@
     cursor: pointer;
     box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.2);
     transition: all 0.6s ease-in-out;
+    margin-top: 2rem;
 }
 .order_button:hover {
     box-shadow: inset 5px 5px 8px rgb(0, 0, 0, 0.4);
@@ -176,7 +177,7 @@
 }
 
 .events_con {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: auto auto;
     width: 80%;
@@ -256,7 +257,7 @@
     z-index: 1; /* Set a z-index for the modal background */
   }
   
-  .modal-content {
+  .modal-content1 {
     background: #fff; /* White background for the modal */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 90%; /* Adjust the width as needed */
@@ -313,7 +314,7 @@
 /* Why Us? Section */
 .whyUs_sec{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     height: 25rem;
     background-color: #f8fadb;
 }
@@ -321,6 +322,10 @@
 .why_text {
     padding: 30px;
     margin-left: 1rem;
+}
+
+.why_text2{
+    margin-bottom: 2rem;
 }
 
 .list {
@@ -450,4 +455,13 @@
 .appStore, .googlePlay {
     max-height: 3rem;
     filter: drop-shadow(2px 5px 4px rgb(48, 48, 48, 0.4));
+}
+
+.dummy2 {
+    color:#ffc33c;
+}
+
+.special_header {
+    margin-top: 0.5rem;
+    text-align: center;
 }

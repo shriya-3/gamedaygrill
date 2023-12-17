@@ -370,5 +370,35 @@ input[type='radio'] {
     font-size: 15px;
 }
 
+.modal-content {
+    background-color: #f8fadb;
+    height: 15rem;
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 
+.close_con {
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.text_close_con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content button{
+    
+    margin-top: 2rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: #e0403f;
+    color:#f8fadb;
+    border: 1px solid black;
+    
+}
 

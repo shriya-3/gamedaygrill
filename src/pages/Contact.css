@@ -36,6 +36,11 @@
 .icon1{
     transform: scale(0.85);
 }
+
+.icon2 {
+    color:#f8fadb;
+    transform: scale(0.85);
+}
 .email_text {
     margin-left: 0.6rem;
 }
@@ -123,4 +128,20 @@
 
 .button:hover {
     cursor: pointer;
+}
+
+.contact_after {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contact_after button{
+    margin-top: 2rem;
+    text-align: center;
+    width: 15rem;
+    height: 2.5rem;
+    background-color: #e0403f;
+    color:#f8fadb;
+    border: 1px solid black;
 }

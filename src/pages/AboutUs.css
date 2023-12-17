@@ -1,0 +1,135 @@
+.aboutUs_page {
+    background-color: #f8fadb;
+}
+
+.first_con, .second_con, .third_con {
+    display: flex;
+    justify-content: center;
+
+}
+
+.first_con {
+    margin-top: 2rem;
+}
+
+.first_sec {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 85%;
+    height: max-content;
+}
+
+
+
+.first_left_sec, .second_right_sec {
+    padding: 20px;
+}
+
+.first_sec p, .first_sec h1{
+    padding-bottom: 1rem;
+}
+
+.first_sec h1{
+    color: #ffaa31;
+}
+
+.first_sec p span{
+    color: #e0403f;
+}
+
+.first_right_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports_img_con {
+    width: 80%;
+    max-width:  25rem;
+    overflow: hidden;
+}
+
+.sports_img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.second_sec {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 85%;
+    height: max-content;
+    background-color: #ffc33c;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.second_sec p, .second_sec h1{
+    padding-bottom: 1rem;
+}
+
+
+
+.second_left_sec {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.flying_con {
+    width: 90%; /* Set the height of the container */
+    max-width: 26rem; /* Set a maximum height for the container */
+    overflow: hidden; /* Hide content that overflows the container */
+  }
+  
+  .flying {
+    transform: rotate(0deg);
+    width: 100%; /* Make the image responsive to its container */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+
+.second_con h1{
+    color:#e0403f;
+}
+.third_sec {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 85%;
+    height: 25rem;
+}
+
+.third_sec {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.third_left_sec, .third_right_sec {
+    padding: 30px;
+}
+
+
+
+.third_left_sec p, .third_left_sec h2{
+    padding-bottom: 1rem;
+}
+
+.name_list {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+.third_right_sec h3{
+    padding-bottom: 1rem;
+}
+
+.third_con {
+    margin-top: 2rem;
+}

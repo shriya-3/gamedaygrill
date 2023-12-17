@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/gdg.png";
+import Logo from "../assets/logo5.png";
 import Basket from "../assets/basket.png";
 import "./Navbar.css";
 
@@ -22,27 +22,28 @@ const Navbar = ({ size }) => {
   return (
     <div className="navbar_container">
       <div className="navbar">
-        <Link className="item" to="/home">
+        <Link className="item" tabIndex={1} to="/home">
           <img src={Logo} alt="logo" className="logo" loading="lazy"></img>
         </Link>
-        <Link className="item" to="/menu">
+        <Link className="item" tabIndex={2} to="/aboutUs">
+          <h3>ABOUT</h3>
+        </Link>
+        <Link className="item" tabIndex={3} to="/menu">
           <h3>MENU</h3>
         </Link>
-        <Link className="item" to="/reservations">
+        <Link className="item" tabIndex={4} to="/reservations">
           <h3>RESERVATIONS</h3>
         </Link>
-        <Link className="item" to="/rewards">
+        <Link className="item" tabIndex={5} to="/rewards">
           <h3>REWARDS</h3>
         </Link>
-        <Link className="item" to="/contact">
+        <Link className="item" tabIndex={6} to="/contact">
           <h3>CONTACT</h3>
         </Link>
-        <Link className="item" to="/checkout">
+        <Link className="item" tabIndex={7} to="/checkout">
           <div className="cart_container">
             <img src={Basket} alt="cart" className="cart"></img>
-            {(quantity != 0) && (
-              <h6 className="cart_count">{quantity}</h6>
-            )}
+            {quantity !== 0 && <h6 className="cart_count">{quantity}</h6>}
           </div>
         </Link>
       </div>

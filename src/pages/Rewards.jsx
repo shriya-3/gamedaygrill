@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 import Img from "../assets/img.png";
 import Phone from "../assets/rewards_phone2.png";
 import "./Rewards.css"
@@ -10,9 +11,54 @@ import Event from "../assets/event.png";
 import Dessert from "../assets/dessert.jpg";
 import Combo from "../assets/combomeal.jpg";
 import Pizza from "../assets/2pizza.jpg";
+import Modal from 'react-modal';
+
 
 
 export default function Rewards() {
+
+    const modalStyle = {
+        content: {
+          top: '50%',
+          left: '50%',
+          right: 'auto',
+          bottom: 'auto',
+          marginRight: '-50%',
+          transform: 'translate(-50%, -50%)',
+          width: '400px', // Set your desired width
+          backgroundColor: '#f8fadb'
+        },
+      };
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
+
+  
+    const openModal = () => {
+      setIsModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setIsModalOpen(false);
+    };
+  
+    const isStrongPassword = (password) => {
+      return password.length >= 8 && /[A-Z]/.test(password) && /\d/.test(password);
+    };
+    const handleSubmit = (e) => {
+      e.preventDefault();
+  
+      if (!isStrongPassword(password)) {
+        setError('Password must be at least 8 characters and contain at least one uppercase letter and one digit.');
+        return;
+      }
+      closeModal();
+    }; 
+
+
     return (
         <div className="rewards_page">
             <div className="join_container">
@@ -23,12 +69,10 @@ export default function Rewards() {
                             <h2>Earning stuff is easy!</h2>
                             <p>Earn points for ordering your favorite meals and exchange 
                                 them for  rewards on the app. Join now to start earning!</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore 
-                                magna aliqua. Ut enim ad minim veniam</p>
+
                             <p>Questions? Read our FAQ</p>
                             <div className="button_con">
-                                <button>Join Now!</button>
+                                <button onClick={openModal}>Join Now!</button>
                             </div>
                         </div>
                     </div>
@@ -38,6 +82,39 @@ export default function Rewards() {
                     </div>
                 </div>
             </div>
+            <Modal isOpen={isModalOpen} onRequestClose={closeModal} style={modalStyle}>
+                <div className="signup_con">
+                    <h2 className="signup_title">Sign Up</h2>
+                    <form onSubmit={handleSubmit}>
+                    <div className="input3">
+                        <label className="input3">
+                            Name:
+                            <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+                        </label>
+                    </div>
+                    
+                    <div className="input3">
+                    <label className="input3">
+                        Email:
+                        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                    </label>
+                    </div>
+                    
+                    <div className="input3">
+                    <label className="input3">
+                        Password:
+                        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                    </label>
+                    </div>
+                    
+                    {error && <p className="password_error" style={{ color: 'red' }}>{error}</p>}
+                    <button type="submit" className="submit_button">Sign Up</button>
+                    </form>
+                    <button onClick={closeModal} className="submit_button">
+                    Cancel
+                    </button>
+                </div>
+            </Modal>
             
             <div className="circle_container">
                 <div className="circles">

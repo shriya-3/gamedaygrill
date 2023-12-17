@@ -38,8 +38,8 @@ body {
 }
 
 .logo {
-  width: 72px;
-  height: 72px;
+  width: 80px;
+  height: 80px;
   margin-right: 40rem;
 }
 
@@ -55,6 +55,7 @@ body {
   font-size: 12px;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
+  padding-right: 2rem;
 }
 
 .item:hover {
@@ -105,4 +106,11 @@ header nav .user li {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+}
+
+.item:focus {
+  /* Styles for the active link */
+  color: yellow; 
+  border: 1px solid yellow;
+  font-weight: bold; 
 }

@@ -9,7 +9,8 @@
         "price": 34.99,
         "img": "menu_imgs/stripsteak.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Flavorful cut of beef cooked in olive oil, salt, and pepper",
+        "calorie": 1047
 
       },
       {
@@ -19,7 +20,8 @@
         "price": 21.16,
         "img": "menu_imgs/kebabs.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Grilled brisket and chicken served with spicy ranch",
+        "calorie": 1047
 
       },
       {
@@ -29,7 +31,8 @@
         "price": 16.95,
         "img": "menu_imgs/applecheesetaco4.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Cinnamon waffle shells with cheesecake filling and apple sauce",
+        "calorie": 1047
 
       },
       {
@@ -39,7 +42,8 @@
         "price": 14.45,
         "img": "menu_imgs/pinacolada2.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Coconut and pineapple juice served with blended ice (can request for mocktail)",
+        "calorie": 1047
 
       }
     ]
@@ -54,7 +58,8 @@
         "price": 5.49,
         "img": "menu_imgs/cheese.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Hot, crispy potato fries topped with melted cheese and garlic",
+        "calorie": 281
 
       },
       {
@@ -64,7 +69,8 @@
         "price": 4.99,
         "img": "menu_imgs/poppers.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "A savory cream cheese filling covered with a thick layer of bread crumbs",
+        "calorie": 42
 
       },
       {
@@ -74,7 +80,8 @@
         "price": 5.99,
         "img": "menu_imgs/nachos.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Crispy tortilla chips drizzled with cheese and salsa and additional toppings of choice",
+        "calorie": 274
 
       },
       {
@@ -84,7 +91,8 @@
         "price": 5.49,
         "img": "menu_imgs/wings.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Deep fried chicken wings smothered in hot sauce",
+        "calorie": 77
 
       }
     ]
@@ -99,7 +107,8 @@
         "price": 6.99,
         "img": "menu_imgs/veggie.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Grilled burger bread with a vegetable patty, fresh tomatoes, crunchy lettuce, and crispy onions",
+        "calorie": 365
 
       },
       {
@@ -109,7 +118,8 @@
         "price": 5.49,
         "img": "menu_imgs/doublecheese.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Grilled beef patty with melted cheese and fish topped with burger bread",
+        "calorie": 535
 
       },
       {
@@ -119,7 +129,8 @@
         "price": 5.49,
         "img": "menu_imgs/blackbean.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Burger bread with a black bean patty, onions, peppers, and sauteed garlic",
+        "calorie": 476
 
       },
       {
@@ -129,7 +140,8 @@
         "price": 5.49,
         "img": "menu_imgs/bbq.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Burger bread with beef patty, bbq sauce, burger seasoning, red onions, american cheese, lettuce, and tomatoes",
+        "calorie": 490
 
       },
       {
@@ -139,7 +151,8 @@
         "price": 5.49,
         "img": "menu_imgs/classic.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "A grilled beef patty, cheese, tomatoes, lettuce, onions in burger bread",
+        "calorie": 540
 
       },
       {
@@ -149,7 +162,8 @@
         "price": 5.49,
         "img": "menu_imgs/turkeyburger.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Ground turkey patty, lettuce, tomatoes, and red onions in soft burger bread",
+        "calorie": 554
 
       }
 
@@ -165,7 +179,8 @@
         "price": 0,
         "img": "menu_imgs/gardenveggie4.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Olives, bell peppers, broccoli, mushrooms, and spinach on tossed dough with tomato sauce",
+        "calorie": 1160
 
       },
       {
@@ -175,8 +190,8 @@
         "price": 135,
         "img": "menu_imgs/hawaiian.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
-
+        "desc": "Pineapple, spinach, and green peppers with a choice of meat on tossed dough",
+        "calorie": 1047
       },
       {
         "id": 7,
@@ -185,7 +200,8 @@
         "price": 693,
         "img": "menu_imgs/chickenfresco.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Onions, spinach, and tomatoes with a choice of cheese and meat on tossed dough",
+        "calorie": 1850
 
       },
       {
@@ -195,7 +211,8 @@
         "price": 289,
         "img": "menu_imgs/cheesepizza.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "A choice of feta, mozzarella, parmesan, and ricotta cheese on freshly tossed dough",
+        "calorie": 958
 
       },
       {
@@ -205,7 +222,8 @@
         "price": 289,
         "img": "menu_imgs/spinachFeta.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Fresh spinach, crunchy onions, and creamy alfredo sauce with a choice of cheese on fresh pizza dough",
+        "calorie": 982
 
       },
       {
@@ -215,7 +233,8 @@
         "price": 289,
         "img": "menu_imgs/buffalochickenpizza.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "A choice of meat tossed in buffalo sauce with onions and a choice of cheese on freshly tossed pizza",
+        "calorie": 1243
 
       }
     ]
@@ -230,7 +249,8 @@
         "price": 6.99,
         "img": "menu_imgs/avocadotaco.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Crispy tortilla shells topped with fresh avocados, chopped pineapple salsa, and chipotle sauce",
+        "calorie": 367
 
       },
       {
@@ -240,7 +260,8 @@
         "price": 5.32,
         "img": "menu_imgs/briskettaco.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Crispy tortilla shells, with brisket, melted monterey jack, and sauteed onions",
+        "calorie": 898
 
       },
       {
@@ -250,7 +271,8 @@
         "price": 6.23,
         "img": "menu_imgs/fajita.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Baked beans, sour cream, fresh salsa, creamy sour cream and bell peppers with tortillas",
+        "calorie": 1401
 
       },
       {
@@ -260,7 +282,8 @@
         "price": 10.99,
         "img": "menu_imgs/smokedbrisket.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Sliced beef smoked with spice, salt, and pepper",
+        "calorie": 354
 
       },
       {
@@ -270,7 +293,8 @@
         "price": 7.99,
         "img": "menu_imgs/lemonpepperwings.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Chicken wings cooked with lemon pepper, olive oil, lemon juice",
+        "calorie": 497
 
       },
       {
@@ -280,7 +304,8 @@
         "price": 6.59,
         "img": "menu_imgs/burrito.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Crispy burrito filled with beef brisket, french fries, jalapeno - bbq sauce, mixed cheese, pickled jalapenos, pickled red onions",
+        "calorie": 434
 
       },
       {
@@ -290,7 +315,8 @@
         "price": 7.99,
         "img": "menu_imgs/enchilada.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Ground beef wrapped in tortillas and cooked in spicy sauce, topped with salsa con queso and seasoning",
+        "calorie": 574
 
       }
     ]
@@ -305,7 +331,8 @@
         "price": 11.99,
         "img": "menu_imgs/strawberrycheese.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "A creamy base with toppings of fresh strawberry and lemon juice",
+        "calorie": 482
 
       },
       {
@@ -315,7 +342,8 @@
         "price": 11.99,
         "img": "menu_imgs/oreocheese.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "A creamy base with crushed Oreos and whipped cream",
+        "calorie": 466
 
       },
       {
@@ -325,7 +353,8 @@
         "price": 5.49,
         "img": "menu_imgs/raisincookies.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Warm cookies baked with cinnamon, chewy oats, and sweet raisins",
+        "calorie": 688
 
       },
       {
@@ -335,7 +364,8 @@
         "price": 6.49,
         "img": "menu_imgs/brookies.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Soft layers of brownie batter and cookie dough baked to perfection",
+        "calorie": 410
 
       },
       {
@@ -345,7 +375,8 @@
         "price": 7.99,
         "img": "menu_imgs/icecream.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Creamy vanilla ice cream",
+        "calorie": 273
 
       }
     ]
@@ -360,7 +391,8 @@
         "price": 4.99,
         "img": "menu_imgs/lemonade.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "A refreshing blend of lemon juice, water, and maple syrup",
+        "calorie": 99
 
       },
       {
@@ -370,7 +402,8 @@
         "price": 6.99,
         "img": "menu_imgs/smoothie.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Frozen fruit blended with ice and sweetener",
+        "calorie": 192
 
       },
       {
@@ -380,7 +413,8 @@
         "price": 5.99,
         "img": "menu_imgs/icedtea.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Sweetened cold tea made with sugar and refreshing fruit flavorings",
+        "calorie": 2.4
 
       },
       {
@@ -390,7 +424,8 @@
         "price": 5.49,
         "img": "menu_imgs/pepsi.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "soda with cola flavor in the popular Pepsi can",
+        "calorie": 155
 
       },
       {
@@ -400,7 +435,8 @@
         "price": 5.49,
         "img": "menu_imgs/drpepper2.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "soda in the popular Dr Pepper can",
+        "calorie": 190
 
       },
       {
@@ -410,7 +446,8 @@
         "price": 5.49,
         "img": "menu_imgs/mountaindew2.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "Citrus flavored soft drink",
+        "calorie": 232
 
       },
       {
@@ -420,7 +457,8 @@
         "price": 8.49,
         "img": "menu_imgs/margarita.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "an alcoholic drink, made with strawberry puree and lime juice",
+        "calorie": 353
 
       },
       {
@@ -430,7 +468,8 @@
         "price": 8.99,
         "img": "menu_imgs/mojito.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "an alcoholic drink, made with passion fruit and lime juice",
+        "calorie": 270
 
       },
       {
@@ -440,7 +479,8 @@
         "price": 289,
         "img": "menu_imgs/lavender.png",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "an alcoholic drink, made with lavender syrup and lemonade",
+        "calorie": 99
 
       }
     ]
@@ -455,7 +495,8 @@
         "price": 149,
         "img": "menu_imgs/salsa3.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "A spicy sauce made of chopped tomatoes, onions, peppers",
+        "calorie": 25
 
       },
       {
@@ -465,7 +506,8 @@
         "price": 135,
         "img": "menu_imgs/guac.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "mashed avocado with flavorful tomatoes, crispy onions, fresh cilantro, garlic, salt, and lime juice",
+        "calorie": 45
 
       },
       {
@@ -475,7 +517,8 @@
         "price": 693,
         "img": "menu_imgs/chipotle.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "smoky, flavorful chipotle peppers and adobo sauce with creamy condiments",
+        "calorie": 79
 
       },
       {
@@ -485,7 +528,8 @@
         "price": 289,
         "img": "menu_imgs/cheesesauce.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "melted cheese seasoned with spice",
+        "calorie": 110
 
       },
       {
@@ -495,7 +539,8 @@
         "price": 289,
         "img": "menu_imgs/redsauce.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "bottled hot sauce and butter",
+        "calorie": 66
 
       },
       {
@@ -505,7 +550,8 @@
         "price": 289,
         "img": "menu_imgs/ranch.jpg",
         "amount": 1,
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+        "desc": "creamy salad dressing made from buttermilk",
+        "calorie": 129
 
       }
     ]

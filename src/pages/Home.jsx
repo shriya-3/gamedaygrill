@@ -74,6 +74,8 @@ export default function Home() {
             <h2 className="welcome_text">Welcome To</h2>
             <h1 className="gdg_title">Game Day Grill</h1>
             <h4 className="slogan_text">Where Everyday Is A Game Day!</h4>
+            <Link to="/menu" className="order_button">Order Now</Link>
+
           </div>
         </div>
         
@@ -112,7 +114,10 @@ export default function Home() {
       <MenuBar />
       {/* Special Events and Deals*/}
       <div className="events_sec">
+        <p className="dummy2">p</p>
+        <h2 className="special_header">Special Events and Deals</h2>
         <div className="events_grid_con">
+          
           <div className="events_con">
             <div className="grid-container">
                 <div className="grid-img">
@@ -173,7 +178,7 @@ export default function Home() {
       {/* Modal */}
       {showModal && (
         <div className="modal" ref={modalRef}>
-          <div className="modal-content">
+          <div className="modal-content1">
             <span className="close" onClick={handleCloseModal}>
               &times;
             </span>
@@ -249,18 +254,9 @@ export default function Home() {
       {/* Why Us? */}
       <div className="whyUs_sec">
         <div className="why_text">
-          <h2>Why Us?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <div className="list">
-            <ul>
-              <li>Lorem ipsum dolor sit amet,</li>
-              <li>Lorem ipsum dolor sit amet,</li>
-              <li>Lorem ipsum dolor sit amet,</li>
-            </ul>
-          </div>
+          <h2 className="why_text2">Why Us?</h2>
+          <p>We're not just about delicious food; we're the ultimate destination for sports enthusiasts and food-lovers alike. With our mouth watering menu, unbeatable game day atmosphere, and high quality service, we're the perfect spot to fuel your passion for both great food and the excitement of the game! Come join us for an unforgettable experience where everyday is a Game Day!</p>
+
 
         </div>
         <div className="img_container">

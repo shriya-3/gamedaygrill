@@ -40,33 +40,24 @@ const getPriceForSize = (size) => {
 const addToCart = (newItem, newQuantity) => {
   let items = localStorage.getItem("cart");
   items = JSON.parse(items) || [];
-
   let index = items.findIndex((item) => item.title === newItem.title);
   if (index !== -1) {
     items[index].quantity += newQuantity;
-
-    // Check if the item is a pizza and update the price accordingly
     if (newItem.title.toLowerCase().includes('pizza')) {
       items[index].total = newQuantity * getPriceForSize(newItem.size);
-      items[index].price = getPriceForSize(newItem.size); // Update the price for pizza
+      items[index].price = getPriceForSize(newItem.size); 
     } else {
       items[index].total = newItem.price * newQuantity;
     }
-
   } else {
-    // Calculate total dynamically based on the selected size and quantity
     const total = newItem.title.toLowerCase().includes('pizza')
       ? newQuantity * getPriceForSize(newItem.size)
       : newItem.price * newQuantity;
-
     items.push({ ...newItem, quantity: newQuantity, total });
-
-    // Check if the item is a pizza and update the price accordingly
     if (newItem.title.toLowerCase().includes('pizza')) {
-      items[items.length - 1].price = getPriceForSize(newItem.size); // Update the price for pizza
+      items[items.length - 1].price = getPriceForSize(newItem.size); 
     }
   }
-
   localStorage.setItem("cart", JSON.stringify(items));
 };
 
@@ -77,7 +68,7 @@ const addToCart = (newItem, newQuantity) => {
 
 
 const Cards = (props) => {
-  const { title, desc, price, img } = props.item;
+  const { title, desc, price, img, calorie } = props.item;
   const [modalIsOpen, setIsOpen] = useState(false);
   const [newQuantity, setNewQuantity] = useState(1);
   const { quantity, updateQuantity } = useQuantity();
@@ -187,7 +178,7 @@ const Cards = (props) => {
 
                 <div className="sub_con">
                   <p>{desc}</p>
-                  <p>insert nutrition details</p>
+                  <p>Cals: {calorie}</p>
                 </div>
 
               </div>
@@ -419,7 +410,7 @@ const Cards = (props) => {
                       </div>
                     </div>
                   )}
-                  {(title.toLowerCase().includes('double cheese'))  && (
+                  {(title.toLowerCase().includes('double cheese pizza'))  && (
                     
                     <div className="toppings_con">
                       <p className="customize_title">Customize your Cheese:</p>
@@ -484,9 +475,9 @@ const Cards = (props) => {
                       </div>
                     </div>
                   )}
-                  {(title.toLowerCase().includes('double cheese'))  && (  
+                  {(title.toLowerCase().includes('hawaiian pizza'))  && (  
                     <div className="toppings_con">
-                      <p className="customize_title">Customize your Cheese:</p>
+                      <p className="customize_title">Customize your Meat:</p>
                       <div className="toppings_con2">
 
                         <div className="topping-circle2" onClick={() => toggleTopping('chicken')}>
@@ -534,17 +525,6 @@ const Cards = (props) => {
                             <p>Pepperoni</p>
                           </div>
                         </div>
-                        <div className="topping-circle2" onClick={() => toggleTopping('sauce')}>
-                          <div className="topping2_con">
-                            <div className="topping-circle" onClick={() => toggleTopping('sauce')}>
-                              <img className="topping_img4" src={Sauce} onClick={() => toggleTopping('sauce')}></img>
-                            </div>
-                            <div className="select_top">
-                              {selectedToppings.sauce ? <span>-</span> : <span>+</span>}
-                            </div>
-                            <p>Buffalo Sauce</p>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   )}
@@ -563,7 +543,7 @@ const Cards = (props) => {
                 </div>
               </div>
             <div className="bottom_sec">
-              <h4>${title.toLowerCase().includes('pizza') ? (total * newQuantity).toFixed(2) : price * newQuantity}</h4>
+              <h4>${title.toLowerCase().includes('pizza') ? (total * newQuantity).toFixed(2) : (price * newQuantity).toFixed(2)}</h4>
               <button
               onClick={() => {
                 addToCart({ ...props.item, size: selectedSize }, newQuantity);
@@ -571,7 +551,7 @@ const Cards = (props) => {
                 closeModal();
               }}
             >
-              Add to Cart - ${title.toLowerCase().includes('pizza') ? (getPriceForSize(selectedSize) * newQuantity).toFixed(2) : price * newQuantity}
+              Add to Cart - ${title.toLowerCase().includes('pizza') ? (getPriceForSize(selectedSize) * newQuantity).toFixed(2) : (price * newQuantity).toFixed(2)}
             </button>
             </div>
           </div>

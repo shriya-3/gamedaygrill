@@ -271,3 +271,33 @@
     font-size: 60px;
     margin-bottom: 5px;
 }
+
+.signup_con {
+    justify-content: center;
+    text-align: center;
+}
+
+.signup_con input {
+    margin-left: 1rem;
+}
+
+.input3 {
+    margin-top: 1rem;
+}
+
+.signup_title {
+    margin-bottom: 1rem;
+}
+
+.password_error {
+    margin-top: 1rem;
+}
+
+.submit_button {
+    margin-top: 1rem;
+    width: 10rem;
+    background-color: #e0403f;
+    color:#f8fadb;
+    border: 1px solid black;
+    height: 1.5rem;
+}

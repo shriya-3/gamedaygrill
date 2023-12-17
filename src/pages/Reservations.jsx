@@ -39,14 +39,14 @@ export default function () {
                 <div className="timings">
                   <h2>Open Daily</h2>
                   <h3>Monday - Friday</h3>
-                  <p>8am - 12pm: Breakfast</p>
-                  <p>12pm - 1am: Lunch & Dinner</p>
-                  <h3>Saturday & Sunday</h3>
                   <p>10am - 12pm: Breakfast</p>
                   <p>12pm - 1am: Lunch & Dinner</p>
+                  <h3>Saturday & Sunday</h3>
+                  <p>11am - 1pm: Breakfast</p>
+                  <p>1pm - 1am: Lunch & Dinner</p>
                   <div className="call">
                     <hr></hr>
-                    <h4>Call Us: 123-323-0876</h4>
+                    <h4>Call Us: 298-3985-2092</h4>
                   </div>
                 </div>
               </div>
@@ -84,6 +84,7 @@ export default function () {
                     <label htmlFor="email">Email:</label>
                     <input
                       type="email"
+                      placeholder="Email"
                       id="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}

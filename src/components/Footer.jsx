@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faInstagram, faTwitter, faFacebook} from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope, faPhone, faClock } from "@fortawesome/free-solid-svg-icons"
 import {  } from "@fortawesome/free-solid-svg-icons"
-
+import Bpa from "../assets/logo6.jpeg"
 
 export default function Footer() {
     return (
@@ -11,22 +11,20 @@ export default function Footer() {
             <div className="footer_grid">
             <div className="footer_links">
                 <div className="footer_links_div">
-                    <h4>For Business</h4>
-                    <p>link 1</p>
-                    <p>link 2</p>
-                    <p>link 3</p>
+                    <img src= {Bpa} className="bpa"/>
+
                 </div>
                 <div className="footer_links_div">
-                    <h4>For Business</h4>
-                    <p>link 1</p>
-                    <p>link 2</p>
-                    <p>link 3</p>
+                    <h4>Website Creators</h4>
+                    <p>Shriya Kaza</p>
+                    <p>Smruthi Gelli</p>
+                    <p>Tanvi Nagilla</p>
                 </div>
                 <div className="footer_links_div">
-                    <h4>For Business</h4>
-                    <p>link 1</p>
-                    <p>link 2</p>
-                    <p>link 3</p>
+                    <h4>Member IDs</h4>
+                    <p>00134914</p>
+                    <p>00134904</p>
+                    <p>00134922</p>
                 </div>
                 <div className="footer_links_div">
                     <h4>Follow Us</h4>
