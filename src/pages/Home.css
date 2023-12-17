@@ -314,18 +314,18 @@
 /* Why Us? Section */
 .whyUs_sec{
     display: grid;
-    grid-template-columns: 40% 60%;
-    height: 25rem;
+    grid-template-columns: 50% 50%;
+    height: max-content;
     background-color: #f8fadb;
 }
 
 .why_text {
-    padding: 30px;
+    padding: 40px;
     margin-left: 1rem;
 }
 
 .why_text2{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .list {
@@ -349,11 +349,12 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    margin: 3rem 0 3rem 0;
 }
 
 .burger_img {
     display: flex;
-    width: 34rem;
+    width: 70%;
     justify-self: center;
     align-self: center;
     outline: 2px solid #ffc33c;
