@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="body">
-      <HashRouter>
+      <HashRouter basename="gamedaygrill">
         <QuantityProvider>
           <Navbar />
           <Routes>
