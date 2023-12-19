@@ -139,7 +139,7 @@
 .events_sec {
     position: relative;
     width: 100%;
-    height: 35rem;
+    height: max-content;
     background: #ffc33c;
 }
 
@@ -178,7 +178,9 @@
 
 .events_con {
     margin-top: 2rem;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     grid-template-columns: auto auto;
     width: 80%;
     column-gap: 3rem;
@@ -316,6 +318,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     height: max-content;
+    padding-bottom: 2rem;
     background-color: #f8fadb;
 }
 
@@ -426,15 +429,16 @@
 
 .app_content {
     position: relative;
-    margin-left: 5rem;
     width: 30rem;
     height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     /*border: 1px solid black;*/
 }
 
 
 .app_title {
-    line-height: 5rem;
     font-size: 34px;
     padding: 10px 5px 0px 5px;
 }
@@ -448,6 +452,9 @@
 .download_apps {
     margin-top: 2rem;
     height: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .appStore {
