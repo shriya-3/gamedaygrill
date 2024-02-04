@@ -10,7 +10,7 @@
 
 .reservations {
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     width: 80%;
     height: 35rem;
     box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.2);
@@ -140,3 +140,25 @@
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 900px) {
+    .reservations {
+      grid-template-columns: 100%; 
+    }
+  
+    .timings_con,
+    .bookings {
+      width: 100%; 
+    }
+    .bookings {
+        order: 1;
+    }
+    .timings_con {
+        order: 2;
+    }
+    .reservations {
+        height: max-content;
+        margin-bottom: 3rem;
+        font-size: 14px;
+    }
+
+  }

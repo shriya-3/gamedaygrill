@@ -9,10 +9,10 @@ import AppStore from "../assets/appStore.png";
 import GooglePlay from "../assets/GooglePlay.png";
 import Video from "../assets/home_video.mp4";
 import Burger from "../assets/flameBurger.png";
-import NewYear from "../assets/new_year.jpg";
+import NewYear from "../assets/mic.jpg";
 import SuperBowl from "../assets/super_bowl.jpg";
 import Nba from "../assets/nba.jpg";
-import Christmas from "../assets/christmas.jpg";
+import Christmas from "../assets/spring.jpg";
 import Gift from "../assets/gift.jpg";
 import Cowboy from "../assets/cowboy2.jpg";
 
@@ -61,7 +61,11 @@ export default function Home() {
     setShowModal3(false);
   };
 
-  
+  const [isChatOpen, setIsChatOpen] = useState(false);
+
+  const handleToggleChat = () => {
+    setIsChatOpen(!isChatOpen);
+  };
 
 
   return (
@@ -120,57 +124,70 @@ export default function Home() {
           
           <div className="events_con">
             <div className="grid-container">
-                <div className="grid-img">
-                  <img src={NewYear} alt="burger" className="newyear" />
+                <div className="grid-con">
+                  <div className="grid-img">
+                    <img src={SuperBowl} alt="superbowl" className="newyear" />
+                  </div>  
+                  <div className="grid-item">
+                    <h6 className="event_title">Super Bowl Watch Party</h6>
+                    <h6 className="event_details">Sun, Feb 11, 2024</h6>
+                    <h6 className="event_details">5:00 PM CST</h6>
+                    <p className="learn_more" onClick={handleLearnMoreClick2}>Learn More</p>
+                  </div>
                 </div>
-                <div className="grid-item">
-                  <h6 className="event_title">New Years Countdown</h6>
-                  <h6 className="event_details">Sun, Dec 31, 2023</h6>
-                  <h6 className="event_details">10:30 PM CST</h6>
-                  <p className="learn_more" onClick={handleLearnMoreClick}>Learn More</p>
+                <div className="grid-con">
+                  <div className="grid-img">
+                    <img src={NewYear} alt="newyear" className="newyear" />
+                  </div>
+                  <div className="grid-item">
+                    <h6 className="event_title">Retro Karaoke Night</h6>
+                    <h6 className="event_details">Mon, March 4, 2024</h6>
+                    <h6 className="event_details">7:00 PM CST</h6>
+                    <p className="learn_more" onClick={handleLearnMoreClick}>Learn More</p>
+                  </div>
                 </div>
-                <div className="grid-img">
-                  <img src={SuperBowl} className="newyear" />
-                </div>  
-                <div className="grid-item">
-                  <h6 className="event_title">Super Bowl Watch Party</h6>
-                  <h6 className="event_details">Sun, Feb 11, 2024</h6>
-                  <h6 className="event_details">5:00 PM CST</h6>
-                  <p className="learn_more" onClick={handleLearnMoreClick2}>Learn More</p>
-                </div>
-                <div className="grid-img">
-                  <img src={Nba} className="newyear" />
-                </div>
-                <div className="grid-item">
-                  <h6 className="event_title">NBA Finals 2024</h6>
-                  <h6 className="event_details">Date: TBD</h6>
-                  <h6 className="event_details">Time: TBD</h6>
-                  <p className="learn_more" onClick={handleLearnMoreClick3}>Learn More</p>
+
+                <div className="grid-con">
+                  <div className="grid-img">
+                    <img src={Nba} alt="nba" className="newyear" />
+                  </div>
+                  <div className="grid-item">
+                    <h6 className="event_title">NBA Finals 2024</h6>
+                    <h6 className="event_details">Date: TBD</h6>
+                    <h6 className="event_details">Time: TBD</h6>
+                    <p className="learn_more" onClick={handleLearnMoreClick3}>Learn More</p>
+                  </div>
                 </div>  
               </div>
 
-            <div className="grid-container1"> 
-              <div className="grid-img">
-                <img src={Cowboy} className="newyear" />
+            <div className="grid-container1">
+              <div className="grid-con"> 
+                <div className="grid-img">
+                  <img src={Cowboy} className="newyear" />
+                </div>
+                <div className="grid-item">
+                  <h6 className="deal_title">20% off of your order on Cowboys Game Days!</h6>
+                  <p className="code">Use Code: COWBOY20</p>
+                </div>
               </div>
-              <div className="grid-item">
-                <h6 className="deal_title">20% off of your order on Cowboys Game Days!</h6>
-                <p className="code">Use Code: COWBOY20</p>
+              <div className="grid-con">
+                <div className="grid-img">
+                  <img src={Christmas} className="newyear" />
+                </div> 
+                <div className="grid-item">
+                  <h6 className="deal_title">$15 off this Spring season!</h6>
+                  <p className="code">Use Code: SPRING15</p>
+                </div>
               </div>
-              <div className="grid-img">
-                <img src={Christmas} className="newyear" />
-              </div> 
-              <div className="grid-item">
-                <h6 className="deal_title">$15 off on Christmas Eve Day!</h6>
-                <p className="code">Use Code: CHRISTMAS15</p>
+              <div className="grid-con">
+                <div className="grid-img">
+                  <img src={Gift} className="newyear" />
+                </div>
+                <div className="grid-item">
+                  <h6 className="deal_title">Enjoy $5 off on Mondays</h6>
+                  <p className="code">Use Code: MONDAY5</p>
+                </div> 
               </div>
-              <div className="grid-img">
-                <img src={Gift} className="newyear1" />
-              </div>
-              <div className="grid-item">
-                <h6 className="deal_title">Enjoy $5 off on Mondays</h6>
-                <p className="code">Use Code: MONDAY5</p>
-              </div> 
             </div>
           </div>
         </div>
@@ -187,10 +204,10 @@ export default function Home() {
                 <img src={NewYear} alt="burger" className="newyear2" />
               </div>
               <div className="modal_text">
-                <h2 className="modal_title">New Years Countdown</h2>
-                <h3 className="modal_date">Sun, Dec 31, 2023</h3>
-                <h3 className="modal_time">10:30pm CST</h3>
-                <p className="modal_reservee">Join us at Game Day Grill to start the countdown for the new year with 20% off all meals and drinks! 
+                <h2 className="modal_title">Retro Karaoke Night</h2>
+                <h3 className="modal_date">Mon, March 4, 2024</h3>
+                <h3 className="modal_time">7:00pm CST</h3>
+                <p className="modal_reservee">Join us at Game Day Grill for a retro themed karaoke night to sing all the classics! 
                 <br></br>Only 50 spots left- <Link to="/reservations"><span className="reserveLink"> Reserve Now! </span></Link>
                 </p>
               </div>  

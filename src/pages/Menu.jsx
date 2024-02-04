@@ -4,10 +4,13 @@ import "./menu.css";
 import Cards from "../components/Cards";
 
 const Menu = () => {
+  const navbarHeight = 20; // Adjust this value based on your actual navbar height
+
   const scrollToSection = (index) => {
     const element = document.getElementById(`section-${index}`);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const offsetTop = element.offsetTop - navbarHeight;
+      window.scrollTo({ top: offsetTop, behavior: "smooth" });
     }
   };
 
@@ -21,6 +24,7 @@ const Menu = () => {
   return (
     <div className="menub_page">
       <div className="side_bar">
+        
         <h4 className="side_bar_title">Menu</h4>
         <div className="side_bar_items">
           {sections.map((section, index) => (

@@ -100,7 +100,7 @@
     display: grid;
     grid-template-columns: auto auto;
     width: 85%;
-    height: 25rem;
+    height: max-content;
 }
 
 .third_sec {

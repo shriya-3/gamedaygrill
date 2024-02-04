@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import "./Cards.css";
-import Cart from "../assets/cart2.png";
+import Cart from "../assets/cart3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { } from "@fortawesome/free-brands-svg-icons"
 import { faXmark } from "@fortawesome/free-solid-svg-icons"

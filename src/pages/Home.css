@@ -5,6 +5,10 @@
     position: relative;
 }
 
+body {
+    background-color: white;
+}
+
 .header_sec{
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +47,7 @@
 .gdg_title {
     font-size: 70px;
     text-shadow: 1px 1px 2px rgba(0,0,0,3);
+    flex-wrap: wrap;
 }
 
 .slogan_text{
@@ -141,6 +146,7 @@
     width: 100%;
     height: max-content;
     background: #ffc33c;
+    padding-bottom: 2rem;
 }
 
 .events_one {
@@ -192,21 +198,38 @@
 	display: grid;
     grid-template-columns: auto auto;
 }
+
+
 .grid-container, .grid-container1 {
   display: grid;
-  grid-template-columns: 10rem 24rem;
+  grid-template-rows: auto auto auto;
   padding: 10px;
-  row-gap: 5px;
+  row-gap: 10px;
   justify-content: center;
+}
+
+.grid-con {
+    display: flex;
+
 }
 .grid-item {
   background-color: #f8fadb;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 10px;
+  border-radius: 0px 18px 18px 0px; /* Border radius */
+  box-shadow: 0px 0px 15px 0px #f8fadb;
   text-align: center;
   height: 8rem;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20rem;
+}
 
+
+
+.grid-img {
+    width: 9.5rem;
+
+    
 }
 
 
@@ -227,8 +250,21 @@
     text-decoration: underline;
 }
 
+.learn_more:hover {
+    cursor: pointer;
+    color:#e0403f;
+}
+
 .newyear {
     height: 8rem;
+    border-radius: 18px 0px 0px 18px;
+    box-shadow: 0px 0px 15px 0px #f8fadb;
+}
+
+.grid-con:hover .newyear,
+.grid-con:hover .grid-item {
+  transform: scale(1.04); /* Scale by 1.01 on hover */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
 }
 
 .newyear1{
@@ -309,8 +345,7 @@
 
   .newyear2{
     align-content: center;
-    width: 100%;
-    height: 100%;
+    height: 15rem;
   }
 
 /* Why Us? Section */
@@ -329,6 +364,7 @@
 
 .why_text2{
     margin-bottom: 1rem;
+    font-size: 40px;
 }
 
 .list {

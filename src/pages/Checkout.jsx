@@ -62,7 +62,7 @@ const Checkout = () => {
   const handleDiscountChange = (code) => {
     if (code === "COWBOY20") {
       setDiscountBalance((sum * 1.0825).toFixed(2) * 0.2);
-    } else if (code === "CHRISTMAS15") {
+    } else if (code === "SPRING15") {
       setDiscountBalance(15.0)
     } else if (code === "MONDAY5") {
       setDiscountBalance(5.0)
