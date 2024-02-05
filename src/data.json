@@ -7,7 +7,7 @@
         "title": "New York Strip Steak",
         "author": "",
         "price": 34.99,
-        "img": "menu_imgs/stripsteak.png",
+        "img": "/menu_imgs/stripsteak.png",
         "amount": 1,
         "desc": "Flavorful cut of beef cooked in olive oil, salt, and pepper",
         "calorie": 1047
@@ -18,7 +18,7 @@
         "title": "Brisket & Chicken Kebabs",
         "author": "",
         "price": 21.16,
-        "img": "menu_imgs/kebabs.png",
+        "img": "/menu_imgs/kebabs.png",
         "amount": 1,
         "desc": "Grilled brisket and chicken served with spicy ranch",
         "calorie": 1047
@@ -29,7 +29,7 @@
         "title": "Apple Cheesecake Tacos",
         "author": "",
         "price": 16.95,
-        "img": "menu_imgs/applecheesetaco4.png",
+        "img": "/menu_imgs/applecheesetaco4.png",
         "amount": 1,
         "desc": "Cinnamon waffle shells with cheesecake filling and apple sauce",
         "calorie": 1047
@@ -40,7 +40,7 @@
         "title": "Pina Colada",
         "author": "",
         "price": 14.45,
-        "img": "menu_imgs/pinacolada2.jpg",
+        "img": "/menu_imgs/pinacolada2.jpg",
         "amount": 1,
         "desc": "Coconut and pineapple juice served with blended ice (can request for mocktail)",
         "calorie": 1047
@@ -56,7 +56,7 @@
         "title": "Cheese French Fries",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/cheese.png",
+        "img": "/menu_imgs/cheese.png",
         "amount": 1,
         "desc": "Hot, crispy potato fries topped with melted cheese and garlic",
         "calorie": 281
@@ -67,7 +67,7 @@
         "title": "Jalapeno Poppers",
         "author": "",
         "price": 4.99,
-        "img": "menu_imgs/poppers.png",
+        "img": "/menu_imgs/poppers.png",
         "amount": 1,
         "desc": "A savory cream cheese filling covered with a thick layer of bread crumbs",
         "calorie": 42
@@ -78,7 +78,7 @@
         "title": "Cheese Nachos",
         "author": "",
         "price": 5.99,
-        "img": "menu_imgs/nachos.png",
+        "img": "/menu_imgs/nachos.png",
         "amount": 1,
         "desc": "Crispy tortilla chips drizzled with cheese and salsa and additional toppings of choice",
         "calorie": 274
@@ -89,7 +89,7 @@
         "title": "Boneless Wings",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/wings.png",
+        "img": "/menu_imgs/wings.png",
         "amount": 1,
         "desc": "Deep fried chicken wings smothered in hot sauce",
         "calorie": 77
@@ -105,7 +105,7 @@
         "title": "Grilled Vegetable Burger",
         "author": "",
         "price": 6.99,
-        "img": "menu_imgs/veggie.png",
+        "img": "/menu_imgs/veggie.png",
         "amount": 1,
         "desc": "Grilled burger bread with a vegetable patty, fresh tomatoes, crunchy lettuce, and crispy onions",
         "calorie": 365
@@ -116,7 +116,7 @@
         "title": "Double Cheeseburger",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/doublecheese.png",
+        "img": "/menu_imgs/doublecheese.png",
         "amount": 1,
         "desc": "Grilled beef patty with melted cheese and fish topped with burger bread",
         "calorie": 535
@@ -127,7 +127,7 @@
         "title": "Spicy Black Bean Burger",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/blackbean.png",
+        "img": "/menu_imgs/blackbean.png",
         "amount": 1,
         "desc": "Burger bread with a black bean patty, onions, peppers, and sauteed garlic",
         "calorie": 476
@@ -138,7 +138,7 @@
         "title": "BBQ Burger",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/bbq.png",
+        "img": "/menu_imgs/bbq.png",
         "amount": 1,
         "desc": "Burger bread with beef patty, bbq sauce, burger seasoning, red onions, american cheese, lettuce, and tomatoes",
         "calorie": 490
@@ -149,7 +149,7 @@
         "title": "Classic Hamburger",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/classic.png",
+        "img": "/menu_imgs/classic.png",
         "amount": 1,
         "desc": "A grilled beef patty, cheese, tomatoes, lettuce, onions in burger bread",
         "calorie": 540
@@ -160,7 +160,7 @@
         "title": "Turkey Burger",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/turkeyburger.png",
+        "img": "/menu_imgs/turkeyburger.png",
         "amount": 1,
         "desc": "Ground turkey patty, lettuce, tomatoes, and red onions in soft burger bread",
         "calorie": 554
@@ -177,7 +177,7 @@
         "title": "Garden Veggie Pizza",
         "author": "",
         "price": 0,
-        "img": "menu_imgs/gardenveggie4.jpg",
+        "img": "/menu_imgs/gardenveggie4.jpg",
         "amount": 1,
         "desc": "Olives, bell peppers, broccoli, mushrooms, and spinach on tossed dough with tomato sauce",
         "calorie": 1160
@@ -188,7 +188,7 @@
         "title": "Hawaiian Pizza",
         "author": "",
         "price": 135,
-        "img": "menu_imgs/hawaiian.png",
+        "img": "/menu_imgs/hawaiian.png",
         "amount": 1,
         "desc": "Pineapple, spinach, and green peppers with a choice of meat on tossed dough",
         "calorie": 1047
@@ -198,7 +198,7 @@
         "title": "Chicken Fresco Pizza",
         "author": "",
         "price": 693,
-        "img": "menu_imgs/chickenfresco.png",
+        "img": "/menu_imgs/chickenfresco.png",
         "amount": 1,
         "desc": "Onions, spinach, and tomatoes with a choice of cheese and meat on tossed dough",
         "calorie": 1850
@@ -209,7 +209,7 @@
         "title": "Double Cheese Pizza",
         "author": "",
         "price": 289,
-        "img": "menu_imgs/cheesepizza.png",
+        "img": "/menu_imgs/cheesepizza.png",
         "amount": 1,
         "desc": "A choice of feta, mozzarella, parmesan, and ricotta cheese on freshly tossed dough",
         "calorie": 958
@@ -220,7 +220,7 @@
         "title": "Spinach & Feta Alfredo Pizza",
         "author": "",
         "price": 289,
-        "img": "menu_imgs/spinachFeta.png",
+        "img": "/menu_imgs/spinachFeta.png",
         "amount": 1,
         "desc": "Fresh spinach, crunchy onions, and creamy alfredo sauce with a choice of cheese on fresh pizza dough",
         "calorie": 982
@@ -231,7 +231,7 @@
         "title": "Buffalo Chicken Pizza",
         "author": "",
         "price": 289,
-        "img": "menu_imgs/buffalochickenpizza.png",
+        "img": "/menu_imgs/buffalochickenpizza.png",
         "amount": 1,
         "desc": "A choice of meat tossed in buffalo sauce with onions and a choice of cheese on freshly tossed pizza",
         "calorie": 1243
@@ -247,7 +247,7 @@
         "title": "Crispy Avocado Taco",
         "author": "",
         "price": 6.99,
-        "img": "menu_imgs/avocadotaco.png",
+        "img": "/menu_imgs/avocadotaco.png",
         "amount": 1,
         "desc": "Crispy tortilla shells topped with fresh avocados, chopped pineapple salsa, and chipotle sauce",
         "calorie": 367
@@ -258,7 +258,7 @@
         "title": "Brisket Taco",
         "author": "",
         "price": 5.32,
-        "img": "menu_imgs/briskettaco.png",
+        "img": "/menu_imgs/briskettaco.png",
         "amount": 1,
         "desc": "Crispy tortilla shells, with brisket, melted monterey jack, and sauteed onions",
         "calorie": 898
@@ -269,7 +269,7 @@
         "title": "Tex-Mex Fajitas",
         "author": "",
         "price": 6.23,
-        "img": "menu_imgs/fajita.png",
+        "img": "/menu_imgs/fajita.png",
         "amount": 1,
         "desc": "Baked beans, sour cream, fresh salsa, creamy sour cream and bell peppers with tortillas",
         "calorie": 1401
@@ -280,7 +280,7 @@
         "title": "Smoked Brisket",
         "author": "",
         "price": 10.99,
-        "img": "menu_imgs/smokedbrisket.png",
+        "img": "/menu_imgs/smokedbrisket.png",
         "amount": 1,
         "desc": "Sliced beef smoked with spice, salt, and pepper",
         "calorie": 354
@@ -291,7 +291,7 @@
         "title": "Lemon-Pepper Chicken Wings",
         "author": "",
         "price": 7.99,
-        "img": "menu_imgs/lemonpepperwings.png",
+        "img": "/menu_imgs/lemonpepperwings.png",
         "amount": 1,
         "desc": "Chicken wings cooked with lemon pepper, olive oil, lemon juice",
         "calorie": 497
@@ -302,7 +302,7 @@
         "title": "Texas Grilled Burrito",
         "author": "",
         "price": 6.59,
-        "img": "menu_imgs/burrito.png",
+        "img": "/menu_imgs/burrito.png",
         "amount": 1,
         "desc": "Crispy burrito filled with beef brisket, french fries, jalapeno - bbq sauce, mixed cheese, pickled jalapenos, pickled red onions",
         "calorie": 434
@@ -313,7 +313,7 @@
         "title": "Queso Beef Enchiladas",
         "author": "",
         "price": 7.99,
-        "img": "menu_imgs/enchilada.png",
+        "img": "/menu_imgs/enchilada.png",
         "amount": 1,
         "desc": "Ground beef wrapped in tortillas and cooked in spicy sauce, topped with salsa con queso and seasoning",
         "calorie": 574
@@ -329,7 +329,7 @@
         "title": "Strawberry Cheescake",
         "author": "",
         "price": 11.99,
-        "img": "menu_imgs/strawberrycheese.png",
+        "img": "/menu_imgs/strawberrycheese.png",
         "amount": 1,
         "desc": "A creamy base with toppings of fresh strawberry and lemon juice",
         "calorie": 482
@@ -340,7 +340,7 @@
         "title": "Oreo Cheescake",
         "author": "",
         "price": 11.99,
-        "img": "menu_imgs/oreocheese.png",
+        "img": "/menu_imgs/oreocheese.png",
         "amount": 1,
         "desc": "A creamy base with crushed Oreos and whipped cream",
         "calorie": 466
@@ -351,7 +351,7 @@
         "title": "Oatmeal Raisin Cookies",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/raisincookies.png",
+        "img": "/menu_imgs/raisincookies.png",
         "amount": 1,
         "desc": "Warm cookies baked with cinnamon, chewy oats, and sweet raisins",
         "calorie": 688
@@ -362,7 +362,7 @@
         "title": "Brookies",
         "author": "",
         "price": 6.49,
-        "img": "menu_imgs/brookies.png",
+        "img": "/menu_imgs/brookies.png",
         "amount": 1,
         "desc": "Soft layers of brownie batter and cookie dough baked to perfection",
         "calorie": 410
@@ -373,7 +373,7 @@
         "title": "Ice Cream",
         "author": "",
         "price": 7.99,
-        "img": "menu_imgs/icecream.png",
+        "img": "/menu_imgs/icecream.png",
         "amount": 1,
         "desc": "Creamy vanilla ice cream",
         "calorie": 273
@@ -389,7 +389,7 @@
         "title": "Lemonade",
         "author": "",
         "price": 4.99,
-        "img": "menu_imgs/lemonade.png",
+        "img": "/menu_imgs/lemonade.png",
         "amount": 1,
         "desc": "A refreshing blend of lemon juice, water, and maple syrup",
         "calorie": 99
@@ -400,7 +400,7 @@
         "title": "Mango & Peach Smoothie",
         "author": "",
         "price": 6.99,
-        "img": "menu_imgs/smoothie.png",
+        "img": "/menu_imgs/smoothie.png",
         "amount": 1,
         "desc": "Frozen fruit blended with ice and sweetener",
         "calorie": 192
@@ -411,7 +411,7 @@
         "title": "Iced Tea",
         "author": "",
         "price": 5.99,
-        "img": "menu_imgs/icedtea.png",
+        "img": "/menu_imgs/icedtea.png",
         "amount": 1,
         "desc": "Sweetened cold tea made with sugar and refreshing fruit flavorings",
         "calorie": 2.4
@@ -422,7 +422,7 @@
         "title": "Pepsi",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/pepsi.png",
+        "img": "/menu_imgs/pepsi.png",
         "amount": 1,
         "desc": "soda with cola flavor in the popular Pepsi can",
         "calorie": 155
@@ -433,7 +433,7 @@
         "title": "Dr Pepper",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/drpepper2.jpg",
+        "img": "/menu_imgs/drpepper2.jpg",
         "amount": 1,
         "desc": "soda in the popular Dr Pepper can",
         "calorie": 190
@@ -444,7 +444,7 @@
         "title": "Mountain Dew",
         "author": "",
         "price": 5.49,
-        "img": "menu_imgs/mountaindew2.jpg",
+        "img": "/menu_imgs/mountaindew2.jpg",
         "amount": 1,
         "desc": "Citrus flavored soft drink",
         "calorie": 232
@@ -455,7 +455,7 @@
         "title": "Strawberry Margarita",
         "author": "",
         "price": 8.49,
-        "img": "menu_imgs/margarita.png",
+        "img": "/menu_imgs/margarita.png",
         "amount": 1,
         "desc": "an alcoholic drink, made with strawberry puree and lime juice",
         "calorie": 353
@@ -466,7 +466,7 @@
         "title": "Passion Fruit Mojito",
         "author": "",
         "price": 8.99,
-        "img": "menu_imgs/mojito.png",
+        "img": "/menu_imgs/mojito.png",
         "amount": 1,
         "desc": "an alcoholic drink, made with passion fruit and lime juice",
         "calorie": 270
@@ -477,7 +477,7 @@
         "title": "Tito's Lavendar Lemonade",
         "author": "",
         "price": 289,
-        "img": "menu_imgs/lavender.png",
+        "img": "/menu_imgs/lavender.png",
         "amount": 1,
         "desc": "an alcoholic drink, made with lavender syrup and lemonade",
         "calorie": 99
@@ -493,7 +493,7 @@
         "title": "Salsa",
         "author": "",
         "price": 4.99,
-        "img": "menu_imgs/salsa3.jpg",
+        "img": "/menu_imgs/salsa3.jpg",
         "amount": 1,
         "desc": "A spicy sauce made of chopped tomatoes, onions, peppers",
         "calorie": 25
@@ -504,7 +504,7 @@
         "title": "Guacamole",
         "author": "",
         "price": 4.99,
-        "img": "menu_imgs/guac.jpg",
+        "img": "/menu_imgs/guac.jpg",
         "amount": 1,
         "desc": "mashed avocado with flavorful tomatoes, crispy onions, fresh cilantro, garlic, salt, and lime juice",
         "calorie": 45
@@ -515,7 +515,7 @@
         "title": "Chipotle Sauce",
         "author": "",
         "price": 3.99,
-        "img": "menu_imgs/chipotle.jpg",
+        "img": "/menu_imgs/chipotle.jpg",
         "amount": 1,
         "desc": "smoky, flavorful chipotle peppers and adobo sauce with creamy condiments",
         "calorie": 79
@@ -526,7 +526,7 @@
         "title": "Cheese Sauce",
         "author": "",
         "price": 3.99,
-        "img": "menu_imgs/cheesesauce.jpg",
+        "img": "/menu_imgs/cheesesauce.jpg",
         "amount": 1,
         "desc": "melted cheese seasoned with spice",
         "calorie": 110
@@ -537,7 +537,7 @@
         "title": "Red Sauce",
         "author": "",
         "price": 3.99,
-        "img": "menu_imgs/redsauce.jpg",
+        "img": "/menu_imgs/redsauce.jpg",
         "amount": 1,
         "desc": "bottled hot sauce and butter",
         "calorie": 66
@@ -548,7 +548,7 @@
         "title": "Spicy Ranch",
         "author": "",
         "price": 3.99,
-        "img": "menu_imgs/ranch.jpg",
+        "img": "/menu_imgs/ranch.jpg",
         "amount": 1,
         "desc": "creamy salad dressing made from buttermilk",
         "calorie": 129
