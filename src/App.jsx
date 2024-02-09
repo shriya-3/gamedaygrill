@@ -14,6 +14,9 @@ import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import { QuantityProvider } from "./components/contexts/Quantity";
 import Chat from "./components/Chat";
+import Account from "./pages/Account"
+import Profile from "./pages/Profile"
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,6 +37,8 @@ function App() {
             <Route path="/reservations" element={<Reservations />} />
             <Route path="/rewards" element={<Rewards />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/account" element={<Account />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
           <Chat/>
           <Footer />

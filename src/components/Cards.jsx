@@ -59,6 +59,8 @@ const addToCart = (newItem, newQuantity) => {
     }
   }
   localStorage.setItem("cart", JSON.stringify(items));
+  localStorage.setItem("orders", JSON.stringify(items));
+
 };
 
 

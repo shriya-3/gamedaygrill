@@ -10,7 +10,7 @@ import GooglePlay from "../assets/GooglePlay.png";
 import Video from "../assets/home_video.mp4";
 import Burger from "../assets/flameBurger.png";
 import NewYear from "../assets/mic.jpg";
-import SuperBowl from "../assets/super_bowl.jpg";
+import SuperBowl from "../assets/wrestle.jpg";
 import Nba from "../assets/nba.jpg";
 import Christmas from "../assets/spring.jpg";
 import Gift from "../assets/gift.jpg";
@@ -72,7 +72,7 @@ export default function Home() {
     <div className="home_page">
       {/* Header */}
       <div className="header_sec">
-        <div className="overlay">
+        <div className="home_overlay">
           <video src={Video} autoPlay loop muted className="video"/>
           <div className="container">
             <h2 className="welcome_text">Welcome To</h2>
@@ -129,10 +129,10 @@ export default function Home() {
                     <img src={SuperBowl} alt="superbowl" className="newyear" />
                   </div>  
                   <div className="grid-item">
-                    <h6 className="event_title">Super Bowl Watch Party</h6>
-                    <h6 className="event_details">Sun, Feb 11, 2024</h6>
-                    <h6 className="event_details">5:00 PM CST</h6>
-                    <p className="learn_more" onClick={handleLearnMoreClick2}>Learn More</p>
+                    <h6 className="event_title1">NCAA Wrestling Championship Watch Party</h6>
+                    <h6 className="event_details">Wed, March 21, 2024</h6>
+                    <h6 className="event_details">6:00 PM CST</h6>
+                    <p className="learn_more1" onClick={handleLearnMoreClick2}>Learn More</p>
                   </div>
                 </div>
                 <div className="grid-con">
@@ -226,10 +226,10 @@ export default function Home() {
                 <img src={SuperBowl} alt="burger" className="newyear2" />
               </div>
               <div className="modal_text">
-                <h2 className="modal_title">Super Bowl Watch Party</h2>
-                <h3 className="modal_date">Sun, Feb 11, 2024</h3>
-                <h3 className="modal_time">5:00 PM CST</h3>
-                <p className="modal_reservee">Join us at Game Day Grill for an eventful day of snacks, meals, and watching football! 
+                <h2 className="modal_title">NCAA Wrestling Championship Watch</h2>
+                <h3 className="modal_date">Wed, March 21, 2024</h3>
+                <h3 className="modal_time">6:00 PM CST</h3>
+                <p className="modal_reservee">Join us to watch the live 2024 NCAA Wrestling Championships.
                 <br></br>Only 25 spots left- <Link to="/reservations"><span className="reserveLink"> Reserve Now! </span></Link>
                 </p>
               </div>  

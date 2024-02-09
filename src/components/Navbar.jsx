@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/logo5.png";
+import Profile from "../assets/profile.png"
 import Basket from "../assets/basket.png";
 import "./Navbar.css";
 import Hamburger from "./Hamburger";
@@ -60,6 +61,11 @@ const Navbar = ({ size }) => {
             <div className="cart_container">
               <img src={Basket} alt="cart" className="cart"></img>
               {quantity !== 0 && <h6 className="cart_count">{quantity}</h6>}
+            </div>
+          </Link>
+          <Link className="item" tabIndex={8} to="/account" onClick={scrollToTop}>
+            <div className="cart_container">
+              <img src={Profile} alt="user" className="cart"></img>
             </div>
           </Link>
 

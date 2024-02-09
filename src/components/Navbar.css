@@ -151,11 +151,7 @@ body {
 
 @media (max-width: 820px) {
 
-  .logo {
-    float: left;
-    justify-content: left;
-    display: flex;
-  }
+
 
   .icon {
     display: flex;

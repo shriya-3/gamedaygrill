@@ -50,7 +50,6 @@ const Checkout = () => {
     if (code === "GAMEDAY10") {
       // Update the balance when the correct code is entered
       setDiscountBalance(10.0);
-      setGiftCardBalance(10.0);
     } else {
       // Reset the balance if the code is incorrect or empty
       setGiftCardBalance(0.0);
@@ -86,11 +85,14 @@ const Checkout = () => {
 
 
 
+
   const removeItem = (title) => {
     const updatedItems = items.filter((item) => item.title !== title);
     setCartItems(updatedItems);
     updateQuantity(updatedItems.length);
     localStorage.setItem("cart", JSON.stringify(updatedItems));
+    localStorage.setItem("orders", JSON.stringify(updatedItems));
+
   };
   const [isModalVisible, setIsModalVisible] = useState(false);
 

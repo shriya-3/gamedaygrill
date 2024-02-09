@@ -239,6 +239,13 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.event_title1 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
 .event_details {
     font-size: 13px;
     font-weight: 500;
@@ -250,7 +257,18 @@ body {
     text-decoration: underline;
 }
 
+.learn_more1{
+    margin-top: 0.5rem;
+    font-size: 11.5px;
+    text-decoration: underline;
+}
+
 .learn_more:hover {
+    cursor: pointer;
+    color:#e0403f;
+}
+
+.learn_more1:hover {
     cursor: pointer;
     color:#e0403f;
 }

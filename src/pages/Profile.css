@@ -1,0 +1,170 @@
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile_con {
+    width: 80%;
+    margin: 3rem 0rem;
+    border: 5px solid #ffc33c;
+    border-radius: 10px;
+}
+
+.profile_pic {grid-area: menu;}
+.profile_info {grid-area: main;}
+.profile_rewards {grid-area: header;}
+.profile_orders {grid-area: footer;}
+
+.profile_grid {
+    display: grid;
+    grid-template-areas: 
+        'menu menu main main main main'
+        'menu menu main main main main'
+        'header header header footer footer footer';
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.profile_pic, .profile_info, .profile_rewards, .profile_orders{
+    background-color: #ffc33c;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.profile_rewards {
+    text-align: center;
+}
+
+.profile_pic {
+    display: flex;
+
+    justify-content: center;
+}
+
+.user_img {
+    height: 12rem;
+    border-radius: 100px;
+}
+
+.password_con {
+    display: flex;
+}
+
+.input_field {
+    margin-left: 10px;
+    padding: 3.5px;
+    border-radius: 4.5px;
+    border: 2px solid #e0e4e8bf;
+}
+
+.pass_icon {
+    margin-left: 5px;
+}
+
+.changes {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 3px solid #e0e4e8bf;
+    cursor: pointer;
+}
+
+.changes2 {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 3px solid #e0e4e8bf;
+    background-color: #fffffffd;
+}
+
+progress {
+    width: 20rem;
+    height: 2.3rem;
+}
+
+.desert_bar::-webkit-progress-value {
+    background-color: red; /* Change the color of the progress bar */
+  }
+  
+  .combo_bar::-webkit-progress-value {
+    background-color: blue; /* Change the color of the progress bar */
+  }
+  
+  .pizza_bar::-webkit-progress-value {
+    background-color: green; /* Change the color of the progress bar */
+  }
+
+  .cur_rewards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .b {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    color: #e0403f;
+    font-weight: 700;
+
+  }
+
+  progress {
+    margin-bottom: 1.3rem;
+  }
+
+  .circle2 {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background-color: #e0403f;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 6; /* Set a higher z-index for the circles */
+    color: white;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .d {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    color:#e0403f;
+  } 
+
+  .profile_head {
+    padding-left: 15px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .log_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  .logout {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #e0403f;
+    color: #f8fadb;
+    font-size: 18px;
+    font-weight: 500;
+    width: 13rem;
+    height: 3rem;
+    cursor: pointer;
+  }

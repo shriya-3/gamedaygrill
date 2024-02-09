@@ -131,7 +131,7 @@ export default function Rewards() {
                 <div className="rewards_grid">
                     <div className="rewards_card no-top-shadow">
                         <img src={Dessert} alt="img" className="img" />
-                        <p>1 FREE complementary desert of your choice!</p>
+                        <p>1 FREE complimentary desert of your choice!</p>
                     </div>
                     <div className="rewards_card">
                         <img src={Combo} alt="img" className="img" />
@@ -156,7 +156,7 @@ export default function Rewards() {
                         </li>
                         <li>
                             <img src={Grill} alt="img" className="event_icon" />
-                            <h3>10 points for every $1 spent</h3>
+                            <h3>1 point for every $1 spent</h3>
                         </li>
                         <li>
                             <img src={MenuBook} alt="img" className="event_icon" />
@@ -188,7 +188,7 @@ export default function Rewards() {
                         <div className="step">
                             <p className="step_no">2</p>
                             <p>Order your favorites in person, on app, or online through 
-                                your account and earn  10 points per dollar spent.</p>
+                                your account and earn  1 point per dollar spent.</p>
                         </div>
                         <div className="step">
                             <p className="step_no">3</p>

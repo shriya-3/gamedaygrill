@@ -33,6 +33,37 @@ export default function menuBar() {
       top: 350,
     });
   };
+  const scrollToBurger = () => {
+    window.scrollTo({
+      top: 650,
+    });
+  };
+
+  const scrollToPizza = () => {
+    window.scrollTo({
+      top: 1150,
+    });
+  };
+  const scrollToTex = () => {
+    window.scrollTo({
+      top: 1500,
+    });
+  };
+  const scrollToDesert = () => {
+    window.scrollTo({
+      top: 1650,
+    });
+  };
+  const scrollToDrink = () => {
+    window.scrollTo({
+      top: 950,
+    });
+  };
+  const scrollToSide = () => {
+    window.scrollTo({
+      top: 950,
+    });
+  };
 
   return (
     <div className="menuBar">
@@ -52,27 +83,39 @@ export default function menuBar() {
           <h5>APPETIZERS</h5>
         </div>
         <div className="card1">
+        <Link to="/menu" onClick={scrollToBurger}>
           <img src={Burgers} alt="Burgers" loading="lazy" href="/menu"></img>
+        </Link>
           <h5>BURGERS</h5>
         </div>
         <div className="card1">
-          <img src={Pizza} alt="Pizza" loading="lazy" href="/menu"></img>
+          <Link to="/menu" onClick={scrollToPizza}>
+            <img src={Pizza} alt="Pizza" loading="lazy" href="/menu"></img>
+          </Link>
           <h5>PIZZA</h5>
         </div>
         <div className="card1">
-          <img src={Tex} alt="Tex" loading="lazy" href="/menu"></img>
+          <Link to="/menu" onClick={scrollToTex}>
+            <img src={Tex} alt="Tex" loading="lazy" href="/menu"></img>
+          </Link>
           <h5>TEX-MEX</h5>
         </div>
         <div className="card1">
-          <img src={Deserts} alt="Deserts" loading="lazy" href="/menu"></img>
+          <Link to="/menu" onClick={scrollToDesert}>
+            <img src={Deserts} alt="Deserts" loading="lazy" href="/menu"></img>
+          </Link>
           <h5>DESERTS</h5>
         </div>
         <div className="card1">
-          <img src={Drinks} alt="Drinks" loading="lazy" href="/menu"></img>
+          <Link to="/menu" onClick={scrollToDrink}>
+            <img src={Drinks} alt="Drinks" loading="lazy" href="/menu"></img>
+          </Link>
           <h5>DRINKS</h5>
         </div>
         <div className="card1">
-          <img src={Sides} alt="Sides" loading="lazy" href="/menu"></img>
+          <Link to="/menu" onClick={scrollToSide}>
+            <img src={Sides} alt="Sides" loading="lazy" href="/menu"></img>
+          </Link>
           <h5>SIDES</h5>
         </div>
         <h5 className="border"></h5>
