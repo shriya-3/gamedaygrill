@@ -72,7 +72,10 @@ export default function Rewards() {
 
                             <p>Questions? Read our FAQ</p>
                             <div className="button_con">
-                                <button onClick={openModal}>Join Now!</button>
+                                <Link to="/account">
+                                    <button>Join Now!</button>
+
+                                </Link>
                             </div>
                         </div>
                     </div>
