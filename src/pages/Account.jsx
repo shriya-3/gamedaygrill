@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faSquareCheck} from "@fortawesome/free-solid-svg-icons"
 
@@ -64,7 +66,9 @@ const Account = () => {
                 <span className="paragraph3"></span>
                 <input id="signin-email" className="acc_input" type="email" placeholder="Email" />
                 <input id="signin-password" className="acc_input" type="password" placeholder="Password" />
-                <a href="#" className="paragraph2">Forgot your password?</a>
+                <Link to="/profile">
+                  <p className="paragraph2">Already Signed In?</p>
+                </Link>
                 <button type="submit" className="acc_button">Sign In</button>
                 </form>
             </div>
