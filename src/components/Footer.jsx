@@ -15,21 +15,13 @@ export default function Footer() {
 
                 </div>
                 <div className="footer_links_div">
-                    <h4>Website Creators</h4>
-                    <p>Shriya Kaza</p>
-                    <p>Smruthi Gelli</p>
-                    <p>Tanvi Nagilla</p>
                 </div>
                 <div className="footer_links_div">
-                    <h4>Member IDs</h4>
-                    <p>00134914</p>
-                    <p>00134904</p>
-                    <p>00134922</p>
                 </div>
                 <div className="footer_links_div">
                     <h4>Follow Us</h4>
                     <div className="social_bar">
-                        <FontAwesomeIcon icon={ faInstagram } className="icon"></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={ faInstagram } className="icon2"></FontAwesomeIcon>
                         <FontAwesomeIcon icon={ faTwitter } className="icon"></FontAwesomeIcon>
                         <FontAwesomeIcon icon={ faFacebook } className="icon"></FontAwesomeIcon>
                     </div>

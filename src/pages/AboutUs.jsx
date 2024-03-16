@@ -60,21 +60,19 @@ export default function Rewards() {
                         <p>Questions or suggestions? <br></br>Contact us at info@gamedaygrill.com or 298-3985-2092</p>
                     </div>
                     <div className="third_right_sec">
-                        <h2>Shoutout to the Website Creators:</h2>
+                        <h2>Website Developer:</h2>
                         <div className="name_list">
                             <ul>
                                 <li>Shriya Kaza- Website Developer</li>
-                                <li>Smruthi Gelli- Content Manager</li>
-                                <li>Tanvi Nagilla- Visual Design Manager</li>
                             </ul>
                         </div>
-                        
+                        {/*
                         <p>CTE BPA Chapter</p>
                         <p>Theme: Game Night Sports Diner</p>
                         <p>School: Centennial High School</p>
                         <p>City: Frisco</p>
                         <p>State: Texas</p>
-                        <p>Year: 2023-2024</p>
+    <p>Year: 2023-2024</p> */}
                     </div>
                 </div>
             </div>

@@ -53,9 +53,9 @@ const Account = () => {
                 <h1 className="heading1">Sign Up</h1>
 
                 <span className="paragraph"></span>
-                <input id="name" className="acc_input" type="text" placeholder="Name" />
-                <input id="email" className="acc_input" type="email" placeholder="Email" />
-                <input id="password" className="acc_input" type="password" placeholder="Password" />
+                <input id="name" className="acc_input" type="text" placeholder="Name" required/>
+                <input id="email" className="acc_input" type="email" placeholder="Email" required/>
+                <input id="password" className="acc_input" type="password" placeholder="Password" required/>
                 <button type="submit" className="acc_button">Sign Up</button>
                 </form>
             </div>
