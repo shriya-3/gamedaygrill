@@ -53,7 +53,7 @@ export default function Rewards() {
             </div>
             <div className="third_con">
                 <div className="third_sec">
-                    <div className="third_left_sec">
+                    {/*<div className="third_left_sec">
                         <h2>Website Creation</h2>
                         <p>Game Day Grill also takes pride in their easy-to-use, functional, and navigable website which allows customers to 
                             place orders, make reservations, join rewards, and more!</p>
@@ -66,14 +66,14 @@ export default function Rewards() {
                                 <li>Shriya Kaza- Website Developer</li>
                             </ul>
                         </div>
-                        {/*
+                        
                         <p>CTE BPA Chapter</p>
                         <p>Theme: Game Night Sports Diner</p>
                         <p>School: Centennial High School</p>
                         <p>City: Frisco</p>
                         <p>State: Texas</p>
-    <p>Year: 2023-2024</p> */}
-                    </div>
+    <p>Year: 2023-2024</p> 
+                    </div>*/}
                 </div>
             </div>
 
