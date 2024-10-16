@@ -22,7 +22,7 @@ export default function Footer() {
 
 
                 <div className="footer_links_div">
-                    <h4>4th at Texas BPA Website Design Competition</h4>
+                    <h4>4th at Texas BPA State Leadership Conference: Website Design</h4>
                     <div className="social_bar">
 
                     </div>
